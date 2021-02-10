@@ -31,6 +31,8 @@ public class meuPrimeiroProgramaJava {
 		
 		// Fechando o in
 		in.close();
+		
+		// Nota: Implementar leitura de idade e exibi-la.
 	}
 
 }
