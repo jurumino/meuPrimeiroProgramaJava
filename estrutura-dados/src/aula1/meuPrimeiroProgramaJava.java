@@ -20,7 +20,7 @@ public class meuPrimeiroProgramaJava {
 	public static void main(String[] args) {
 		
 		// Saudação ao usuário
-		System.out.println("Olá amigo!\nQual é o seu nome?"); 
+		System.out.println("Ol� amigo!\nQual � o seu nome?"); 
 		
 		// Ler o nome
 		Scanner in = new Scanner(System.in); 
@@ -29,10 +29,13 @@ public class meuPrimeiroProgramaJava {
 		// Saudação específica para o último nome lido..
 		System.out.printf("Olá %s", nome);
 		
-		// Fechando o in
-		in.close();
+		// Perguntar a idade
+		System.out.println("%s, qual � a sua idade?");
 		
-		// Nota: Implementar leitura de idade e exibi-la.
+		// Ler idade
+		Integer idade = in.nextInt();
+		
+		System.out.printf("%d! Puxa! Como voc� � jovem!", idade);
 	}
 
 }
