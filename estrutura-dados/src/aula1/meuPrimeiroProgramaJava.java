@@ -26,7 +26,7 @@ public class meuPrimeiroProgramaJava {
 		Scanner in = new Scanner(System.in); 
 		String nome = in.nextLine();
 		
-		// Saudação específica para o último nome lido
+		// Saudação específica para o último nome lido.
 		System.out.printf("Olá %s", nome);
 		
 		// Fechando o in
