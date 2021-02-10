@@ -12,17 +12,24 @@ import java.util.Locale;
  * @author Usuário
  *
  */
-public class meuPrimeiroProgramaJava { //Classe que contem o método principal
+public class meuPrimeiroProgramaJava { 
 
 	/**
 	 * @param args
 	 */
-	public static void main(String[] args) { // Esse é o metodo principal
-		// TODO Auto-generated method stub
+	public static void main(String[] args) {
 		
-		Scanner in = new Scanner(System.in); // Ler uma string do console usando a biblioteca Scanner
+		// Saudação ao usuário
+		System.out.println("Olá amigo!\nQual é o seu nome?"); 
+		
+		// Ler o nome
+		Scanner in = new Scanner(System.in); 
 		String nome = in.nextLine();
+		
+		// Saudação específica com o nome
 		System.out.printf("Olá %s", nome);
+		
+		// Fechando o in
 		in.close();
 	}
 
