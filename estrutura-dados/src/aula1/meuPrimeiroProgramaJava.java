@@ -9,7 +9,7 @@ import javax.swing.JOptionPane;
 import java.util.Locale;
 
 /**
- * @author Usu·rio
+ * @author Usu√°rio
  *
  */
 public class meuPrimeiroProgramaJava { 
@@ -19,15 +19,15 @@ public class meuPrimeiroProgramaJava {
 	 */
 	public static void main(String[] args) {
 		
-		// SaudaÁ„o ao usu·rio
-		System.out.println("Ol· amigo!\nQual È o seu nome?"); 
+		// Sauda√ß√£o ao usu√°rio
+		System.out.println("Ol√° amigo!\nQual √© o seu nome?"); 
 		
 		// Ler o nome
 		Scanner in = new Scanner(System.in); 
 		String nome = in.nextLine();
 		
-		// SaudaÁ„o especÌfica com o nome
-		System.out.printf("Ol· %s", nome);
+		// Sauda√ß√£o espec√≠fica para o √∫ltimo nome lido
+		System.out.printf("Ol√° %s", nome);
 		
 		// Fechando o in
 		in.close();
